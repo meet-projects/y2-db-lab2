@@ -1,11 +1,5 @@
 # Databases lab 2b: reading data from a database
 
-### Check out the code
-
-Type the following commands into a terminal:
-
-    git clone https://github.com/meet-projects/y2-db-labs
-
 ### Set up python
 
 Here's what you run the first time after you log in:

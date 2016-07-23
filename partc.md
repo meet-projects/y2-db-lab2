@@ -1,4 +1,4 @@
-# Databases lab 2b: reading data from a database
+# Databases lab 2c: updating data in a database
 
 ### Set up python
 

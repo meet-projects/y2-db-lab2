@@ -13,9 +13,18 @@ If you have already run the code above but you've opened a new terminal window, 
     exec bash
     source ~/y2-venv/bin/activate
 
+Open up Python from the `y2-db-lab2' folder. Paste the following lines into Python:
+
+    from database_setup import Base, Person
+    engine = create_engine('sqlite:///crudlab.db')
+    Base.metadata.create_all(engine)
+    Base.metadata.bind = engine
+    DBSession = sessionmaker(bind=engine)
+    session = DBSession()
+
 ### Exercise: Read
 
-1. Use `session.query` to find the hometown of the only French person in the database.
+1. In Python, use `session.query` to find the hometown of the only French person in the database.
 
 2. Write a function `find_nationality` in `add_to_database.py` that takes a
    nationality and returns a list of names of people in the database with that

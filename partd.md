@@ -1,4 +1,4 @@
-# Databases lab 2b: reading data from a database
+# Databases lab 2d: deleting data from a database
 
 ### Set up python
 
@@ -14,6 +14,6 @@ If you have already run the code above but you've opened a new terminal window, 
     source ~/y2-venv/bin/activate
 
 #### Exercise: Delete
-Remove all the instructors and staff from the database so that only students
+From Python, remove all the instructors and staff from the database so that only students
 and TAs are left.
 

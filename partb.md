@@ -12,7 +12,6 @@ Open up Python from the `y2-db-lab2' folder. Paste the following lines into Pyth
 
     from sqlalchemy.orm import relationship, sessionmaker
     from sqlalchemy import create_engine
-
     from database_setup import Base, Person
     engine = create_engine('sqlite:///crudlab.db')
     Base.metadata.create_all(engine)
@@ -22,7 +21,7 @@ Open up Python from the `y2-db-lab2' folder. Paste the following lines into Pyth
 
 ### Exercise: Read
 
-1. In Python, use `session.query` to find the hometown of the only French person in the database.
+1. In Python (*interactively*), use `session.query` to find the hometown of the only French person in the database.
 
 2. Write a function `find_nationality` in `add_to_database.py` that takes a
    nationality and returns a list of names of people in the database with that

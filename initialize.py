@@ -51,5 +51,7 @@ session.add(priscila)
 session.add(jacek)
 session.add(amit)
 session.add(mustafa)
+session.add(lorenzo)
 session.commit()
 
+print("I just created a file called crudlab.db with a database. The database has one table called person, and I added four people to the table.")

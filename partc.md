@@ -2,14 +2,14 @@
 
 ### Get the code
 
-If you haven't already cloned today, open a terminal and run this:
+If you haven't already cloned today, open a terminal and copy-paste this:
 
     cd Desktop
     git clone https://github.com/meet-projects/y2-db-lab2
 
 ### Set up python
 
-Here's what you run to set up Python:
+To set up Python, open a terminal and copy-paste this in:
 
     wget tinyurl.com/MEETpythonY2
     source MEETpythonY2

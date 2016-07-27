@@ -11,11 +11,10 @@ If you haven't already cloned today, open a terminal and copy-paste this in:
 
 To set up Python, open a terminal and copy-paste this in:
 
-    ```
     wget http://tinyurl.com/MEETpythonY2
     source MEETpythonY2
      
-    ```
+
 
 #### Exercise: Delete
 From Python, remove all the instructors and staff from the database so that only students
